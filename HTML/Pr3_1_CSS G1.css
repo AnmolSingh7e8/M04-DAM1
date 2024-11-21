@@ -1,0 +1,46 @@
+#contenidor{
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'side-bar pelicula pelicula pelicula pelicula pelicula'
+    'actor actor actor actor actor actor';
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr 2fr 2fr;
+}
+.contenidor-header{
+    display: grid;
+    
+
+}
+.header{
+    display: flex;
+    background-color: antiquewhite;
+    gap: 15px;
+    
+
+}
+
+.contenidor-pelicules{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px; 
+    grid-template-rows: 100px 100px 100px 100px 100px;
+
+}
+
+.pelicula{
+    display: flex;
+    background-color: darkkhaki;
+    grid-area: pelicula;
+}
+
+.contenidor-actor{
+    display: grid;
+    background-color: burlywood;
+    grid-area: autor;
+}
+
+.actors{
+    display: flex;
+    grid-area: actor;
+    background-color: bisque;
+}
