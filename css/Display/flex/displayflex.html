@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .contenedor{
+        display: flex; /*Quan fem petita la fientra es fa petit */
+        /*flex-direction: column; canvia la distribucio a vertical*/
+        background-color: lightseagreen;
+        padding: 10px;
+        gap: 10px; /*Espai entre els elements */
+        justify-content: space-between; /* fica mes espais entre elements */
+    }
+    .flex-item{
+        background-color: aqua;
+        flex: 2; /* canvia l'espai en el que es troben els elements */
+        
+    }
+</style>
+
+<body>
+    <div class="contenedor"> 
+    <div class="flex-item"> Elemento 1</div>
+    <div class="flex-item"> Elemento 2</div>
+    <div class="flex-item"> Elemento 3</div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<gimnasios>
+    <gimnasio>
+        <nombre>El Dor</nombre>
+        <ubicacion>avenida hipotenusa 232</ubicacion>
+        <propiedad>Inuyasha</propiedad>
+        <actividades>crossfit, pilates y yoga</actividades>
+        <valoracion>4,5</valoracion>
+    </gimnasio>
+
+    <gimnasio>
+        <nombre>Aquapolis</nombre>
+        <ubicacion>calle Tangente 111</ubicacion>
+        <propiedad>Arthur Connan</propiedad>
+    </gimnasio>
+
+    <gimnasio>
+        <nombre>Muscle Man</nombre>
+        <ubicacion>Av. Ángulo 222</ubicacion>
+        <propiedad>Son Goku</propiedad>
+        <actividades>Halterofilia,crossfit,natación y atletismo,</actividades>
+        <valoracion>3,5</valoracion>
+        <reseñas>256</reseñas>
+    </gimnasio>
+</gimnasios>
+
+<listado>
+    <videojuego>
+        <juego>Zelda</juego>
+        <desarrollador>Nintendo</creador>
+        <fecha>1986</fecha>
+        <genero>Acción y aventura</genero>
+    </videojuego>
+
+    <videojuego>
+        <juego>Fifa</juego>
+        <desarrollador>EA Sports</desarrollador>
+        <fecha>1993</fecha>
+        <genero>deportes</genero>
+        <jugabilidad>con un o varios jugadores</jugabilidad>
+    </videojuego>
+
+    <videojuego>
+        <juego>LOL</juego>
+        <desarrollador>Riot Games</desarrollador>
+        <fecha>2009</fecha>
+        <genero>Combate</genero>
+        <jugabilidad>Multijugador</jugabilidad>
+    </videojuego>
+</listado>

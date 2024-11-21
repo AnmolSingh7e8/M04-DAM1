@@ -1,0 +1,46 @@
+h1{
+    color: red;
+}
+h2{
+    color: grey;
+}
+.Franky{
+    background-color:green;
+}
+
+.Avi{
+    background-color: cyan;
+}
+
+.Boris{
+    background-color: greenyellow;
+}
+
+.Tony{
+    background-color: red;
+}
+
+
+.Benicio{
+    background-color: green;
+}
+
+.Denis{
+    background-color: cyan;
+}
+
+.Vinnie{
+    background-color: red;
+}
+
+.Rade{
+    background-color: greenyellow;
+}
+
+li{
+    list-style: upper-roman;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}

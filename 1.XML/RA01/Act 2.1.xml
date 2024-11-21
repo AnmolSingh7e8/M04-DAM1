@@ -1,0 +1,6 @@
+<corredor posicio="1">Manel Roure</corredor>
+<coche tipo="electrico">Tesla</coche>
+<coche tipo_combustible="gasolina">Seat Ibiza</coche>
+<empleado cargo1="recepción" cargo2="contabilidad">Jordi Ros</empleado>
+
+<coche marca="Seat" color="Rojo" matricula="B3456L" conductor="Jorge" conductora="Maria" alquiladoInicio="12/09/2023" alquiladoFinal="24/09/2023"></coche>

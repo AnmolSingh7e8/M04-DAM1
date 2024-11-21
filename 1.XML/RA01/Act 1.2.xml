@@ -1,0 +1,29 @@
+<citaMedica>
+    <ordre>1</ordre>
+    <nombre>Juan</nombre>  
+    <Apellido1>Paco</Apellido1>
+    <Apellido2>Rodriguez</Apellido2>
+    <telefono>678906475</telefono>
+    <fechaDeLaCita>30/11/2024</fechaDeLaCita>
+    <horaDeLaCita>9:30</horaDeLaCita>
+</citaMedica>
+
+<citaMedica2>
+    <ordre>2</ordre>
+    <nombre>Axel</nombre>
+    <Apellido1>Miguel</Apellido1>
+    <Apellido2>Martinez</Apellido2>
+    <telefono>638976460</telefono>
+    <fechaDeLaCita>04/1/2025</fechaDeLaCita>
+    <horaDeLaCita>12:30</horaDeLaCita>
+</citaMedica2>
+
+<citaMedica3>
+    <ordre>3</ordre>
+    <nombre>Andres</nombre>
+    <Apellido1>Iniesta</Apellido1>
+    <Apellido2>Lujan</Apellido2>
+    <telefono>657894365</telefono>
+    <fechaDeLaCita>5/10/2024</fechaDeLaCita>
+    <horaDeLaCita>17:30</horaDeLaCita>
+</citaMedica3>

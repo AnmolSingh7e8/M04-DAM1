@@ -1,0 +1,33 @@
+<?xml version ="1.0"?>
+<empresa>
+    <portatil>
+        <marca>Acer</marca>
+        <modelo procesador="Intel Core i5-1235U" grafica="Iris Xe" memoriaRAM="16GB" discoDuro="512GB SSD" pantalla="39.64cm /15,6'">
+        Aspire3
+        </modelo>
+        <precio IVA="21%">
+        529€
+        </precio>
+        </anuncio disponibilidad="Tienda|Online" descuento="6.757%" resenya="4 estrellas">
+        
+        </anuncio>
+        <logistica cantidad="180">
+        
+        </logistica>
+    </portatil>
+    <portatil>
+        <marca>Hp</marca>
+        <modelo procesador="Intel Core i3 N305" grafica="Intel UHD" memoriaRAM="8GB" discoDuro="512GB SSD" Pantalla="39.6cm /15,6'">
+        15-fd0004ns
+        </modelo>
+        <precio IVA="21%">
+        448,99€
+        </precio>
+        </anuncio disponibilidad="Tienda|Online" descuento="20.042%">
+        
+        </anuncio>
+        <logistica cantidad="160">
+        
+        </logistica>
+    </portatil>
+</empresa>

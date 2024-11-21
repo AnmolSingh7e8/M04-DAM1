@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE portatiles [
+<!ELEMENT portatiles (portatil+)>
+<!ELEMENT portatil (marca,garantia?,precio,caracteristicas,entrega)>
+
+<!ELEMENT marca (modelo)>
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT garantia (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio descuento CDATA #IMPLIED>
+<!ELEMENT resenyas (#PCDATA)>
+<!ELEMENT garantia (#PCDATA)>
+<!ELEMENT caracteristicas (tamano_pantalla,procesador,ram,grafica,almacenamiento,sistema_operativo)>
+<!ELEMENT tamanyo_pantalla (#PCDATA)>
+<!ELEMENT procesador (#PCDATA)>
+<!ATTLIST procesador tipo_procesador CDATA #REQUIRED>
+<!ELEMENT ram (#PCDATA)>
+<!ELEMENT grafica (#PCDATA)>
+<!ELEMENT almacenamiento (#PCDATA)>
+<!ELEMENT sistema_operativo (#PCDATA)>
+
+<!ATTLIST portatil disponibilidad CDATA #REQUIRED>
+
+<!ELEMENT entrega (casa, en_tienda)>
+<!ELEMENT casa (#PCDATA)>
+<!ATTLIST casa dia_envio CDATA #REQUIRED>
+<!ELEMENT en_tienda (#PCDATA)>
+ ]>
+ 
+<portatiles>
+    <portatil disponibilidad="gg">
+        <garantia>sss</garantia>
+        <resenyas>ggg</resenyas>
+        <marca>
+            <modelo></modelo>
+        </marca>
+        <precio descuento=""><precio>
+        <caracteristicas>
+            <tamanyo_pantalla></tamanyo_pantalla> 
+ 
+            <procesador tipo=""></procesador>
+            <ram></ram>
+            <grafica></grafica>
+            <almacenamiento></almacenamiento>
+            <sistema_operativo></sistema_operativo>
+        </caracteristicas>
+        <entrega>
+            <casa dia_envio="ll"></casa>
+            <en_tienda><en_tienda>
+        </entrega>
+    </portatil>
+
+
+    <portatil>
+        <garantia></garantia>
+        <resenyas></resenyas>
+        <marca>
+            <modelo></modelo>
+        </marca>
+        <precio descuento=""><precio>
+        <caracteristicas>
+            <tamano_pantalla></tamano_pantalla>
+            <procesador tipo=""></procesador>
+            <tamano_ram></tamano_ram>
+            <grafica><grafica>
+            <almacenamiento></almacenamiento>
+            <sistema_operativo></sistema_operativo>
+        </caracteristicas>
+        <entrega>
+            <casa dia_envio=""></casa>
+            <en_tienda><en_tienda>
+        </entrega>
+    </portatil>
+</portatiles>

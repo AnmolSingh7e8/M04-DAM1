@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        .contenidorP{
+            position: relative;
+            background-color: blueviolet;
+            padding: 20px;
+        }
+        .contenidor{
+            position: relative;
+            background-color: green;
+            height: 400px;
+            padding: 20px;
+        }
+        .elemento{
+            position: absolute; /*es coloca en relacio al primer contenidor pare diferent de static, si no hi ha tal contenidor ho fa sobre el body*/
+            background-color: lightblue;
+            padding: 20px;
+            top: 10px;
+            left: 10px;
+        }
+
+    
+    </style>
+</head>
+<body>
+    <div class="contenidorP"> 
+        <div class="contenidor"> 
+            <div class="elemento"> 
+                Element Absolute
+            </div> 
+        </div>  
+    </div>
+    
+</body>
+</html>

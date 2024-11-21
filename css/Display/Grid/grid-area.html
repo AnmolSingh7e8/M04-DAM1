@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #grid-contenidor{
+         display: grid;   
+         grid-template-areas: /*Definim la area que li toca a cada div */
+         'header header header'
+         'side-bar content content'
+         'footer footer footer' ;
+         grid-template-columns: 1fr 2fr 2fr;
+         grid-template-rows: 100px 200px  50px;
+         height: 100vh;
+        }
+        .grid-item{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        .header{
+            background-color: aqua;
+            grid-area: header;
+        }
+        .side-bar{
+            background-color: lightseagreen;
+            grid-area: side-bar;
+        }
+        .content{
+            background-color: lightsalmon;
+            grid-area: content;
+        }
+        .footer{
+            background-color: cadetblue;
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+    <div id="grid-contenidor"> 
+        <header class=" grid-item header"> Header</header>
+        <aside class=" grid-item side-bar"> Side Bar</aside>
+        <main class=" grid-item content"> Content</main>
+        <footer class=" grid-item footer"> Footer</footer>      
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-grow</title>
+</head>
+<style>
+    .contenedor{
+        display: flex;
+        padding: 10px;
+        gap: 10px; /*Espai entre els elements */
+        background-color: lightseagreen;
+    }
+    .flex-item{
+        background-color: aqua;
+    }
+    .item1{
+        flex-grow: 1; /* factor de creixement*/
+    }
+    .item2{
+        flex-grow: 2; /* factor de creixement*/
+    }
+    .item3{
+        flex-grow: 3; /* factor de creixement*/
+    }
+</style>
+
+<body>
+    <div class="contenedor"> 
+    <div class="flex-item item1"> Elemento 1</div>
+    <div class="flex-item item2"> Elemento 2</div>
+    <div class="flex-item item3"> Elemento 3</div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+<!ELEMENT matricula (ciclo,alumnos)>
+<!ELEMENT ciclo (#PCDATA)>
+<!ELEMENT alumnos (alumno)+>
+<!ELEMENT alumno (nombre,year,asignaturas)>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT asignaturas (asignatura)+>
+<!ELEMENT asignatura (#PCDATA)>
+
+
+<matricula>
+    <ciclo>DAM</ciclo>
+    <alumno>
+        <nombre>Anmolpreet</nombre>
+        <year>2024</year>
+        <asignaturas>
+            <asignatura>llenguatge de marques</asignatura>
+        </asignaturas>
+    </alumno>
+</matricula>

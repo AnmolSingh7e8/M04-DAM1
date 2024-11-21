@@ -1,0 +1,47 @@
+/* pseudoclase :hover */
+a:hover{
+    color: red;
+}
+ 
+/*pseudoclase :nth-child odd(elecciona els numeros impars) */
+ul li:nth-child(odd){
+    background-color: aquamarine;
+}
+
+/* Pseudoclases :first-child y :last-child */
+p:first-child {
+    font-weight: bold;
+}
+
+p:last-child{
+    color: red;
+}
+
+/*Pseudoclase ::afterfocus  */
+input:focus {
+    outline: 2px solid #4A90E2;
+    background-color: red;
+}
+
+/*Pseudoelemento :before */
+h1::before{
+content:"\1F31F ";
+color: gold;
+}
+
+/*Pseudoelemento :after */
+h1::after{
+    content:"\1F31F ";
+    color: gold;
+    }
+/* Pseudoelemento ::first-line  */
+p::first-line{
+    font-weight: bold;
+    color: darkblue;
+}
+
+/* Pseudoelemento ::first-letter */
+p::first-letter{
+    font-size: 2em;
+    color: red;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .contenedor{
+        padding: 10px;
+        border: solid black;
+
+    }
+
+    .izquierda{
+        background-color: aqua;
+        float: left;
+        width: 40%;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .derecha{
+        background-color: blueviolet;
+        float: right;
+        width: 40%;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .sin-clear{ /*Jugar con esta propiedad eliminandola i creandola de nuevo */
+        background-color: lightcyan;
+        clear: both;
+    }
+</style>
+
+<body>
+    <div class="contenedor"> 
+        <div class="izquierda">Caja flotante a la izquierda </div>
+        <div class="derecha">Caja flotante a la derecha</div>
+        <div class="sin-clear"> Este elemento deberia estar debajo, pero sin `clear`se posiciona a continuación si hay espacio</div> 
+
+    </div>
+</body>
+</html>

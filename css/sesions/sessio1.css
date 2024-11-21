@@ -1,0 +1,59 @@
+/*selector universal */
+*{
+    /*border:1px solid rgb(31, 209, 15); */
+    margin: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 15px;
+}
+
+h3{
+    font-size: 10px;
+}
+
+h4{
+    font-size: 5px;
+}
+
+/*ejemplo selector descendente */
+p span{
+	color: red;
+}
+h1 span{
+	color: blue;
+}
+
+/* Selector de clase (.) */
+.titular { color: green; }
+.destacado {text-decoration: underline;}
+em.destacado {color: blue;}
+
+
+/*Selector de indentificador(#) */
+#titular { color: green; }
+#destacado {text-decoration: underline;}
+
+/*Selector de atributos */
+h1[title="secundario"] { color: orange; } /*que tenga ese valor*/
+h2[title="titulo"] { color: green; }
+h1[title] { color: red; } /*que tenga ese atributo*/
+h3[title ~="titulo"] { color: green; } /*que contenga este valor*/
+h3[lang^="es"] { color: blue; } /*empieza por*/
+
+
+/*
+Pre escalfament
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(31, 50, 214);
+    background-image: url("./img1.png");
+    background-repeat: no-repeat;
+}
+*/ 
