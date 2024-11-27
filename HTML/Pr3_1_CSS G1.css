@@ -1,46 +1,36 @@
-#contenidor{
+#contenedor{
     display: grid;
     grid-template-areas: 
     'header header header'
-    'side-bar pelicula pelicula pelicula pelicula pelicula'
-    'actor actor actor actor actor actor';
-    grid-template-columns: 1fr 2fr 2fr 2fr 2fr;
-    grid-template-rows: 1fr 2fr 2fr;
+    'pelicula pelicula pelicula pelicula pelicula pelicula'
+    'actors actors actors actors actors actors';
+    /* grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; */
+
 }
 .contenidor-header{
-    display: grid;
-    
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
+
 .header{
     display: flex;
-    background-color: antiquewhite;
+    float: inline-start;
+    justify-content: center;
+    padding: 15px;
     gap: 15px;
-    
-
+    background-color: aliceblue;
+    grid-area: header;
 }
 
 .contenidor-pelicules{
-    display: grid;
-    grid-template-columns: 100px 100px 100px 100px 100px; 
-    grid-template-rows: 100px 100px 100px 100px 100px;
-
+    display: flex;
 }
 
 .pelicula{
-    display: flex;
-    background-color: darkkhaki;
-    grid-area: pelicula;
-}
-
-.contenidor-actor{
-    display: grid;
-    background-color: burlywood;
-    grid-area: autor;
-}
-
-.actors{
-    display: flex;
-    grid-area: actor;
-    background-color: bisque;
+    float: inline-start;
+    gap: 10px;
 }
