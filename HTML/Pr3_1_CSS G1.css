@@ -19,7 +19,7 @@
 .header{
     display: flex;
     float: inline-start;
-    justify-content: center;
+    justify-content: space-between;
     padding: 15px;
     gap: 15px;
     background-color: aliceblue;
@@ -33,8 +33,18 @@
 .pelicula{
     float: inline-start;
     gap: 10px;
+    margin: 10px;
+}
+.contenidor-actors{
+    display: flex;
+    gap: 100px;
+    background-color: aliceblue;
 }
 
-.contenidor-actors{
-    background-color: aliceblue;
+.head-actors{
+    align-items: center;
+}
+.actors{
+    float: inline-start;
+    margin: 20px;
 }
