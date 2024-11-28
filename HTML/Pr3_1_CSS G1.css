@@ -1,50 +1,121 @@
 #contenedor{
     display: grid;
     grid-template-areas: 
-    'header header header'
+    'header header header header header header'
     'pelicula pelicula pelicula pelicula pelicula pelicula'
-    'actors actors actors actors actors actors';
+    'contenidor actors actors actors actors actors actors'
+    'contenidor-festival serie serie serie serie serie serie serie serie';
     /* grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr; */
 
 }
+
+.logoitb{
+    text-align: center;
+}
+
 .contenidor-header{
     position: sticky;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
+    top: 0px;
+    padding: 20px;
+    text-align: center;
+    background-color: darkcyan;
 }
 
 .header{
     display: flex;
     float: inline-start;
-    justify-content: space-between;
-    padding: 15px;
-    gap: 15px;
-    background-color: aliceblue;
+    padding: 5px;
+    gap: 20px;
+    background-color: darkcyan;
     grid-area: header;
+}
+
+.header:hover{
+    color: blue;
+    background-color: aqua;
 }
 
 .contenidor-pelicules{
     display: flex;
+    background-color: aliceblue;
 }
 
 .pelicula{
-    float: inline-start;
-    gap: 10px;
+    flex-direction: column-reverse;
     margin: 10px;
 }
+
+.pelicula:hover{
+    background-color: white;
+}
+
 .contenidor-actors{
     display: flex;
     gap: 100px;
     background-color: aliceblue;
 }
 
-.head-actors{
-    align-items: center;
-}
 .actors{
-    float: inline-start;
+    flex-direction: column-reverse;
     margin: 20px;
+}
+
+.actors:hover{
+    background-color: white;
+}
+
+.contenidors-festivals{
+    display: flex;
+    padding: 10px;
+    border: 1px solid purple;
+    grid-area: contenidors-festivals;
+}
+
+.festival{
+    flex-direction: row-reverse;
+    margin: 30px;
+    grid-area: contenidors-festivals;
+}
+
+.contenidor-series{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    margin: 20px;
+    border: 1px solid red;
+    background-color: blue;
+}
+
+.series{
+    margin: 20px;
+}
+
+series.hover{
+    background-color: white;
+}
+
+.contenidor-vist{
+    display: flex;
+}
+
+.vist{
+    flex-direction: column-reverse;
+    margin: 40px;
+    grid-area: vist;
+}
+
+.contenidor-footer{
+    display: flex;
+}
+
+.xarxes{
+    text-align: left;
+    padding-right: 150px;
+}
+
+.direccio{
+    text-align: right;
+    padding-left: 150px;
+    justify-content: unsafe;
 }
