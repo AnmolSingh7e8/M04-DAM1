@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 1 - Hello World JS</title>
+</head>
+
+<body>
+    <h1 id="titulo" atributoInventado="valorAtributo">Aprendiendo JavaScript</h1>
+    <p>Hola Mundo!</p>
+    <p class="importante" id="adios">Adiós mundo <em>cruel</em></p>
+    <span class="importante">Esto es muy importante</span>
+    <input type="text" id="user-input" value="Escribe algo aquí">
+    <script>
+        let titulo = document.getElementById("titulo");
+        let adios = document.getElementById("adios");
+        let input = document.getElementById("user-input")
+        console.log("Elemento con Id=titulo: " + titulo); 
+        console.log("Nombre del elemento con Id=titulo: " + titulo.nodeName);/*Cojemos el elemento del título */
+        /*Cojemos el contenido del <p> </p> */
+        console.log("Nombre del elemento con Id=drama(textContent): " + adios.textContent);
+        /*Cojemos el contenido <span> </span> */
+        console.log("Nombre del elemento con Id=drama(innerHTML): " + adios.innerHTML);
+        /*Cojemos el elemento del título "<p class="importante" id="adios">Adiós mundo <em>cruel</em></p>" */
+        console.log("Nombre del elemento con Id=drama(outerHTML): " + adios.outerHTML);
+        /*Cojemos el value del input*/
+        console.log("Elemento con Id=input: " + input.value);
+    </script>
+</body>
+
+</html>
