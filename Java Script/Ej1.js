@@ -1,21 +1,25 @@
 let titulo = document.getElementById("titulo");
 let adios = document.getElementById("adios");
 let input = document.getElementById("user-input");
-let importante = document.getElementsByClassName("importante");
-console.log("Elemento con Id=titulo: " + titulo);
-/*Cojemos el elemento del título */
-console.log("Nombre del elemento con Id=titulo: " + titulo.nodeName);
-/*Cojemos el contenido del <p> con Id=adios */
-console.log("Nombre del elemento con Id=adios (textContent): " + adios.textContent);
-/*Cojemos el contenido <span> con clase 'importante' (innerHTML) */
-console.log("Nombre del elemento con clase importante (innerHTML): " + importante.innerHTML);
-/*Cojemos el elemento con Id=adios (outerHTML) */
-console.log("Nombre del elemento con Id=adios (outerHTML): " + adios.outerHTML);
-/*Cojemos el value del input */
+
+//value: poner el texto de un input
+//HOLAAA
+//(o lo que pongas en value en la etiqueta del input)
 console.log("Elemento con Id=input: " + input.value);
 
-// Modificamos el contenido del primer elemento con la clase 'importante'
-for(let i = 0; i<importante.length; i++){
-    importante[i].textContent = "Texto importante actualizado";
-}
+console.log("Elemento con Id=titulo: " + titulo);
 
+//nodeName: el nombre de la etiqueta
+//h1
+console.log("Nombre del elemento con Id=titulo: " + titulo.nodeName);
+//textContent: Unícamente el texto (sin tags)
+//Adiós mundo cruel
+console.log("Nombre del elemento con Id=adios(textContent): " + adios.textContent);
+
+//Inner: Muestra lo de dentro de la línia incluyendo tags interiores
+//Adiós mundo <em>cruel</em>
+console.log("Nombre del elemento con Id=adios(innerHTML): " + adios.innerHTML);
+
+//Outer: Muestra todo lo de la línea
+//<p class="importante" id="adios">Adiós mundo <em>cruel</em></p>
+console.log("Nombre del elemento con Id=titulo: " + titulo.outerHTML);

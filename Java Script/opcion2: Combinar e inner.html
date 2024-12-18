@@ -1,0 +1,14 @@
+<div id="articulosInner">
+    <p>Parrafo que está en el HTML</p>
+    </div>
+    <script>
+    let miDivInner = document.getElementById('articulosInner');
+    miDivInner.style.backgroundColor = 'yellow';
+    miDivInner.innerHTML += '<p>Párrafo añadido al final, por defecto.</p>';
+    //Creamos un parrafo y le especificamos que texto HTML tiene (incluye tags)
+    let parrafoSegundoInner = document.createElement('p');
+    parrafoSegundoInner.innerHTML = 'Este es el texto que <em>destacamos del segundo párrafo</em>.Tenemos que ir añadiendo en el orden en que queremos que salga.';
+    //Añadimos este nuevo parrafo antes que el primero que hay.
+    let parrafoDOMInner = miDivInner.children[0];
+    miDivInner.insertBefore(parrafoSegundoInner, parrafoDOMInner);
+    </script>
