@@ -42,15 +42,17 @@ function media3(nota1, nota2, nota3){
 console.log("Ejercicio 4: "  + media3(10,5,6))
 
 //ej5
-function numerosCubo(){
-    for(let i = 1; i < 10000; i++){
-        let num = i.toString()
-        for(let j = 0; j < num.length(); i++){
-        if((i*i*i) = i){
-            return i
-            }
+function numerosCubo() {
+    for (var i = 0; i <= 10000; i++) {
+        var num = i.toString();
+        var suma = 0;
+        for (var j = 0; j < num.length; j++) {
+            suma += multiplicacion3(parseInt(num[j]), parseInt(num[j]), parseInt(num[j]));
+        }
+        if (suma === i) {
+            console.log(i);
         }
     }
 }
 
-console.log(numerosCubo())
+console.log("Ejercicio 5: " +numerosCubo());
