@@ -23,7 +23,7 @@ function comprobarLongitud(palabra, num){
 
 comprobarLongitud("paco", 3)
 
-//ejercicio 3
+//ejercicio 3 
 function cambioCaracteres(palabra) {
     let texto = palabra.toString();
     if (texto.length > 1) {
@@ -35,7 +35,7 @@ function cambioCaracteres(palabra) {
     } else if (texto.length === 1) {
         return texto; 
     } else {
-        return "El string no puede estar vacío.";
+        console.log("No ha ninguna palabra")
     }
 }
 
