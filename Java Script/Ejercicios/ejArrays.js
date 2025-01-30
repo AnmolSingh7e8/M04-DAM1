@@ -38,12 +38,14 @@ console.log(ordenarAlumno(["Rodriguez", "8", 9, '5',4, 'Clara']))
 function filterWords(array){
     let newArray = [];
     for(let x of array){
-        let mayus = x.toUpperCase()
-        if(mayus[0] != 'Z'){
+        let mayus = x[0].toUpperCase()
+        if(mayus != "Z"){
             newArray .push(x)
         }
     }
     return newArray
 }
 
-console.log(filterWords(["Bob", "Alex", "Zoello"]))
+console.log(filterWords(["Bob", "Alex", "Zoello"]));
+console.log(filterWords(["León", "Zebra", "Gacela"]));
+console.log(filterWords(["Mercedes", "Bmw", "Audi", "Porche"]));
